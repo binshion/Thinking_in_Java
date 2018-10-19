@@ -61,6 +61,6 @@ public class Factories {
     public static void main(String[] args){
         serviceConsumer(new Implementation1Factory());
         serviceConsumer(new Implementation2Factory());
-        //added by binshion 2018-10-18 22:50
+        //added by binshion 2018-10-19 13:51
     }
 }
