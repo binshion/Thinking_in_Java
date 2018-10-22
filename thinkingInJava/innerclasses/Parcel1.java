@@ -2,7 +2,7 @@ package thinkingInJava.innerclasses;
 
 //创建内部类
 
-public class Parcell {
+public class Parcel1 {
     class Contents {
         private int i = 11;
         public int value() {
@@ -29,7 +29,7 @@ public class Parcell {
     }
 
     public static void main(String[] args){
-        Parcell parcell = new Parcell();
-        parcell.ship("Binshion the Great!");
+        Parcel1 parcel1 = new Parcel1();
+        parcel1.ship("Binshion the Great!");
     }
 }
