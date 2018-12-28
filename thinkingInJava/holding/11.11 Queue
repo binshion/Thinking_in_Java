@@ -1,0 +1,5 @@
+# 一个典型的先进先出的容器FIFO
+
+## LinkedList提供了方法以支持队列的行为，并且实现了Queue接口，故可作为Queue的一种实现
+
+# PriorityQueue 优先级队列

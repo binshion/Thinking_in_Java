@@ -1,0 +1,4 @@
+# Collection和Iterator
+
+## Collection描述所有序列容器的共性的根接口，它可能会被认为是一个“附属接口”
+在java中，实现Collection就意味着需要提供Iterator()方法
