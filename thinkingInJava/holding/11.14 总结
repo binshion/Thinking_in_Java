@@ -1,0 +1,8 @@
+#Java提供了大量吃哟普对象的方式：
+##1）数组
+##2）Collection保存单一的元素，而Map保存键值对
+##3）各种Queue以及栈的行为，由LinkedList提供支持
+##4）新程序不应该使用过时的Vector, Hashtable和Stack
+
+    除了TreeSet之外的所有Set都拥有与Collection完全一样的接口
+    
