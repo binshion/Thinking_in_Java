@@ -1,6 +1,6 @@
 #Thinking_in_Java
 ###dete: 2018-12-31
-###page：292
+###page：296
 
 ##Chapter
 # 10. 内部类
