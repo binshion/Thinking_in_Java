@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,19 +18,28 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1349">
-                <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+              <first_editor relative-caret-position="456">
+                <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rethrowing.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Rethrowing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+            <state relative-caret-position="371">
+              <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DynamicFields.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="504">
+              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -75,8 +83,9 @@
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/ExtraFeatures.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionMethods.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/WhoCalled.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java" />
       </list>
     </option>
   </component>
@@ -341,9 +350,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Rethrowing">
+  <component name="RunManager" selected="Application.DynamicFields">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration name="DynamicFields" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.DynamicFields" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="ExceptionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.ExceptionMethods" />
@@ -358,17 +378,6 @@
     </configuration>
     <configuration name="ExtraFeatures" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.ExtraFeatures" />
-      <module name="Thinking_in_Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LoggingExceptions2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.LoggingExceptions2" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -442,19 +451,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LoggingExceptions2" />
       <item itemvalue="Application.ExtraFeatures" />
       <item itemvalue="Application.ExceptionMethods" />
       <item itemvalue="Application.WhoCalled" />
       <item itemvalue="Application.Rethrowing" />
+      <item itemvalue="Application.DynamicFields" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DynamicFields" />
         <item itemvalue="Application.Rethrowing" />
         <item itemvalue="Application.WhoCalled" />
         <item itemvalue="Application.ExceptionMethods" />
         <item itemvalue="Application.ExtraFeatures" />
-        <item itemvalue="Application.LoggingExceptions2" />
       </list>
     </recent_temporary>
   </component>
@@ -515,11 +524,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546186203630</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="12.6.3 重新抛出异常">
+      <created>1546188423681</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546188423681</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25833000" />
+    <option name="totallyTimeSpent" value="27922000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -535,11 +551,11 @@
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48400852" visible="true" weight="0.33706608" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48400852" visible="true" weight="0.33706608" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.50427353" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17697228" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -632,7 +648,8 @@
     <MESSAGE value="第10章完成，2018-12-28" />
     <MESSAGE value="2018-12-30,12.4 Done" />
     <MESSAGE value="2018-12-31,12.6 异常调用栈轨迹展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="2018-12-31,12.6 异常调用栈轨迹展示" />
+    <MESSAGE value="12.6.3 重新抛出异常" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.6.3 重新抛出异常" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -640,7 +657,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/getOverTimeSalary.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/Callbacks.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/controller/Controller.java" />
@@ -921,8 +937,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1349">
-            <caret line="71" column="32" lean-forward="true" selection-start-line="71" selection-start-column="32" selection-end-line="71" selection-end-column="32" />
+          <first_editor relative-caret-position="456">
+            <caret line="72" column="35" selection-start-line="72" selection-start-column="35" selection-end-line="72" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
@@ -930,8 +946,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
+        <state relative-caret-position="371">
+          <caret line="46" column="9" lean-forward="true" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
         </state>
       </provider>
     </entry>
