@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/Human.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/TurnOffChecking.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -19,15 +19,27 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+              <first_editor relative-caret-position="330">
+                <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Human.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TurnOffChecking.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/TurnOffChecking.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Human.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Human.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
@@ -147,8 +159,9 @@
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/StormyInning.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/InputFile.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Cleanup.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Human.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/TurnOffChecking.java" />
       </list>
     </option>
   </component>
@@ -297,7 +310,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Human">
+  <component name="RunManager" selected="Application.TurnOffChecking">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -345,8 +358,8 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MultipleReturns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.MultipleReturns" />
+    <configuration name="TurnOffChecking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.TurnOffChecking" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -398,19 +411,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.MultipleReturns" />
       <item itemvalue="Application.LostMessage" />
       <item itemvalue="Application.ExceptionSilencer" />
       <item itemvalue="Application.Cleanup" />
       <item itemvalue="Application.Human" />
+      <item itemvalue="Application.TurnOffChecking" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TurnOffChecking" />
         <item itemvalue="Application.Human" />
         <item itemvalue="Application.Cleanup" />
         <item itemvalue="Application.ExceptionSilencer" />
         <item itemvalue="Application.LostMessage" />
-        <item itemvalue="Application.MultipleReturns" />
       </list>
     </recent_temporary>
   </component>
@@ -428,7 +441,7 @@
       <workItem from="1545906559444" duration="4952000" />
       <workItem from="1545957640566" duration="2482000" />
       <workItem from="1546005022701" duration="6058000" />
-      <workItem from="1546319023862" duration="7810000" />
+      <workItem from="1546319023862" duration="9589000" />
     </task>
     <task id="LOCAL-00001" summary="10.8.2 内部类与框架">
       <created>1545911268273</created>
@@ -528,11 +541,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546326950164</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="12.11 异常匹配">
+      <created>1546327546187</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1546327546187</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36025000" />
+    <option name="totallyTimeSpent" value="37804000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -631,7 +651,8 @@
     <MESSAGE value="12.8 Done" />
     <MESSAGE value="12.9 异常的限制" />
     <MESSAGE value="12.10 构造器" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.10 构造器" />
+    <MESSAGE value="12.11 异常匹配" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.11 异常匹配" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -639,13 +660,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/BigEgg2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/holding/11.5 List">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -984,20 +998,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+          <first_editor relative-caret-position="330">
+            <caret line="92" column="35" selection-start-line="92" selection-start-column="35" selection-end-line="92" selection-end-column="35" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Human.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/TurnOffChecking.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        <state relative-caret-position="256">
+          <caret line="45" column="17" lean-forward="true" selection-start-line="45" selection-start-column="17" selection-end-line="45" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
