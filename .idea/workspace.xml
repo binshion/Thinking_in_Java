@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/strings/IntegerMatch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/strings/Splitting.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -14,12 +16,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="IntegerMatch.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/strings/IntegerMatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Splitting.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/strings/Splitting.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+              <folding>
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -77,6 +101,8 @@
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Human.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/TurnOffChecking.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/异常使用指南" />
+        <option value="$PROJECT_DIR$/thinkingInJava/strings/IntegerMatch.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/strings/Splitting.java" />
         <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
@@ -196,7 +222,7 @@
               <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="strings" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -226,23 +252,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TurnOffChecking">
+  <component name="RunManager" selected="Application.Splitting">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
     <configuration name="Cleanup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.Cleanup" />
-      <module name="Thinking_in_Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="ExceptionSilencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.ExceptionSilencer" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -263,13 +278,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.LostMessage" />
+    <configuration name="IntegerMatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.strings.IntegerMatch" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
+          <option name="PATTERN" value="thinkingInJava.strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Splitting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.strings.Splitting" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkingInJava.strings.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -327,19 +353,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.LostMessage" />
-      <item itemvalue="Application.ExceptionSilencer" />
       <item itemvalue="Application.Cleanup" />
       <item itemvalue="Application.Human" />
       <item itemvalue="Application.TurnOffChecking" />
+      <item itemvalue="Application.IntegerMatch" />
+      <item itemvalue="Application.Splitting" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Splitting" />
+        <item itemvalue="Application.IntegerMatch" />
         <item itemvalue="Application.TurnOffChecking" />
         <item itemvalue="Application.Human" />
         <item itemvalue="Application.Cleanup" />
-        <item itemvalue="Application.ExceptionSilencer" />
-        <item itemvalue="Application.LostMessage" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +383,7 @@
       <workItem from="1545906559444" duration="4952000" />
       <workItem from="1545957640566" duration="2482000" />
       <workItem from="1546005022701" duration="6058000" />
-      <workItem from="1546319023862" duration="10579000" />
+      <workItem from="1546319023862" duration="16092000" />
     </task>
     <task id="LOCAL-00001" summary="10.8.2 内部类与框架">
       <created>1545911268273</created>
@@ -485,11 +511,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546330105794</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="12. 完结">
+      <created>1546330310473</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1546330310473</updated>
+    </task>
+    <task id="LOCAL-00020" summary="13.4 String上的操作">
+      <created>1546331957263</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1546331957263</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38794000" />
+    <option name="totallyTimeSpent" value="44307000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -592,7 +632,9 @@
     <MESSAGE value="12.12 其他可选方式" />
     <MESSAGE value="12.13 异常使用指南" />
     <MESSAGE value="12.14 异常章节总结" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.14 异常章节总结" />
+    <MESSAGE value="12. 完结" />
+    <MESSAGE value="13.4 String上的操作" />
+    <option name="LAST_COMMIT_MESSAGE" value="13.4 String上的操作" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,26 +642,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/holding/11.2 基本概念">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/holding/11.8 Stack">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="1" selection-start-column="1" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/LocalInnerClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -959,11 +981,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/strings/IntegerMatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="8" lean-forward="true" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/strings/Splitting.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="97" column="32" selection-start-line="97" selection-start-column="32" selection-end-line="97" selection-end-column="32" />
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
           </first_editor>
           <second_editor />
         </state>
