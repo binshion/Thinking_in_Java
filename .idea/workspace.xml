@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/NeverCaught.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionSilencer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/LostMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/MultipleReturns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -19,45 +21,43 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="727">
-                <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
+              <first_editor relative-caret-position="235">
+                <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeverCaught.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/NeverCaught.java">
+      <file leaf-file-name="LostMessage.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/LostMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="247">
+              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
               <folding>
-                <element signature="e#95#96#0" expanded="true" />
-                <element signature="e#149#150#0" expanded="true" />
-                <element signature="e#172#173#0" expanded="true" />
-                <element signature="e#191#192#0" expanded="true" />
-                <element signature="e#237#238#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
+                <element signature="e#114#115#0" expanded="true" />
+                <element signature="e#138#139#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Rethrowing.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java">
+      <file leaf-file-name="ExceptionSilencer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionSilencer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+            <state relative-caret-position="57">
+              <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DynamicFields.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java">
+      <file leaf-file-name="MultipleReturns.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/MultipleReturns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2166">
-              <caret line="114" column="40" selection-start-line="114" selection-start-column="40" selection-end-line="114" selection-end-column="40" />
+            <state relative-caret-position="475">
+              <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -103,8 +103,11 @@
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/WhoCalled.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Rethrowing.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/DynamicFields.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/NeverCaught.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/MultipleReturns.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/LostMessage.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionSilencer.java" />
       </list>
     </option>
   </component>
@@ -253,7 +256,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NeverCaught">
+  <component name="RunManager" selected="Application.ExceptionSilencer">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -268,8 +271,30 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="ExceptionMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.ExceptionMethods" />
+    <configuration name="ExceptionSilencer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.ExceptionSilencer" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="LostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.LostMessage" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MultipleReturns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.MultipleReturns" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -281,28 +306,6 @@
     </configuration>
     <configuration name="NeverCaught" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.NeverCaught" />
-      <module name="Thinking_in_Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Rethrowing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.Rethrowing" />
-      <module name="Thinking_in_Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="WhoCalled" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.WhoCalled" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -354,19 +357,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.ExceptionMethods" />
-      <item itemvalue="Application.WhoCalled" />
-      <item itemvalue="Application.Rethrowing" />
       <item itemvalue="Application.DynamicFields" />
       <item itemvalue="Application.NeverCaught" />
+      <item itemvalue="Application.MultipleReturns" />
+      <item itemvalue="Application.LostMessage" />
+      <item itemvalue="Application.ExceptionSilencer" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExceptionSilencer" />
+        <item itemvalue="Application.LostMessage" />
+        <item itemvalue="Application.MultipleReturns" />
         <item itemvalue="Application.NeverCaught" />
         <item itemvalue="Application.DynamicFields" />
-        <item itemvalue="Application.Rethrowing" />
-        <item itemvalue="Application.WhoCalled" />
-        <item itemvalue="Application.ExceptionMethods" />
       </list>
     </recent_temporary>
   </component>
@@ -384,7 +387,7 @@
       <workItem from="1545906559444" duration="4952000" />
       <workItem from="1545957640566" duration="2482000" />
       <workItem from="1546005022701" duration="6058000" />
-      <workItem from="1546319023862" duration="1794000" />
+      <workItem from="1546319023862" duration="3630000" />
     </task>
     <task id="LOCAL-00001" summary="10.8.2 内部类与框架">
       <created>1545911268273</created>
@@ -456,11 +459,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546190582553</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="12.7 Done">
+      <created>1546321517345</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1546321517345</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30009000" />
+    <option name="totallyTimeSpent" value="31845000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -472,11 +482,11 @@
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51599145" side_tool="true" weight="0.20268758" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5170576" side_tool="true" visible="true" weight="0.55095184" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48400852" visible="true" weight="0.20268758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48294243" visible="true" weight="0.55095184" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.50427353" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
@@ -487,7 +497,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Favorites" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.90729165" weight="0.28902954" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9067164" weight="0.2889138" />
       <window_info anchor="right" id="Properties" order="7" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -555,7 +565,8 @@
     <MESSAGE value="12.6.3 重新抛出异常" />
     <MESSAGE value="12.6 Done" />
     <MESSAGE value="README update" />
-    <option name="LAST_COMMIT_MESSAGE" value="README update" />
+    <MESSAGE value="12.7 Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.7 Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -563,9 +574,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/Callbacks.java" />
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/controller/Controller.java" />
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/GreenhouseControls.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/GreenhouseController.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/InheritInner.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/controller/Event.java" />
@@ -849,20 +857,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="727">
-            <caret line="75" column="35" selection-start-line="75" selection-start-column="35" selection-end-line="75" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/NeverCaught.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="114">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
           <folding>
             <element signature="e#95#96#0" expanded="true" />
             <element signature="e#149#150#0" expanded="true" />
@@ -871,6 +869,43 @@
             <element signature="e#237#238#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/MultipleReturns.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="235">
+            <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/LostMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+          <folding>
+            <element signature="e#114#115#0" expanded="true" />
+            <element signature="e#138#139#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionSilencer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
