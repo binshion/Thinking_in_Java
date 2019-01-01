@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/Cleanup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/InputFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/exceptions/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
@@ -20,10 +19,19 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="292">
-                <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
+              <first_editor relative-caret-position="311">
+                <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Human.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Human.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -40,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cleanup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Cleanup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Cleanup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+            <state relative-caret-position="104">
+              <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -137,9 +145,10 @@
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/LostMessage.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/ExceptionSilencer.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/StormyInning.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/InputFile.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Cleanup.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thinkingInJava/exceptions/Human.java" />
       </list>
     </option>
   </component>
@@ -288,7 +297,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Cleanup">
+  <component name="RunManager" selected="Application.Human">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -314,6 +323,17 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Human" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.Human" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="LostMessage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.LostMessage" />
       <module name="Thinking_in_Java" />
@@ -327,17 +347,6 @@
     </configuration>
     <configuration name="MultipleReturns" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.MultipleReturns" />
-      <module name="Thinking_in_Java" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="thinkingInJava.exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="NeverCaught" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.exceptions.NeverCaught" />
       <module name="Thinking_in_Java" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -389,19 +398,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.NeverCaught" />
       <item itemvalue="Application.MultipleReturns" />
       <item itemvalue="Application.LostMessage" />
       <item itemvalue="Application.ExceptionSilencer" />
       <item itemvalue="Application.Cleanup" />
+      <item itemvalue="Application.Human" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Human" />
         <item itemvalue="Application.Cleanup" />
         <item itemvalue="Application.ExceptionSilencer" />
         <item itemvalue="Application.LostMessage" />
         <item itemvalue="Application.MultipleReturns" />
-        <item itemvalue="Application.NeverCaught" />
       </list>
     </recent_temporary>
   </component>
@@ -419,7 +428,7 @@
       <workItem from="1545906559444" duration="4952000" />
       <workItem from="1545957640566" duration="2482000" />
       <workItem from="1546005022701" duration="6058000" />
-      <workItem from="1546319023862" duration="7152000" />
+      <workItem from="1546319023862" duration="7810000" />
     </task>
     <task id="LOCAL-00001" summary="10.8.2 内部类与框架">
       <created>1545911268273</created>
@@ -512,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1546325329491</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="12.10 构造器">
+      <created>1546326950164</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1546326950164</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35367000" />
+    <option name="totallyTimeSpent" value="36025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -524,15 +540,15 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.49166667" weight="0.39767933" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48987207" weight="0.3975364" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5170576" side_tool="true" visible="true" weight="0.55095184" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.51865673" side_tool="true" visible="true" weight="0.42329228" />
       <window_info anchor="right" id="Maven Projects" order="9" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48294243" visible="true" weight="0.55095184" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48134327" visible="true" weight="0.42329228" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.50427353" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
@@ -614,7 +630,8 @@
     <MESSAGE value="12.7 Done" />
     <MESSAGE value="12.8 Done" />
     <MESSAGE value="12.9 异常的限制" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.9 异常的限制" />
+    <MESSAGE value="12.10 构造器" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.10 构造器" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,7 +639,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/BigEgg.java" />
     <entry file="file://$PROJECT_DIR$/thinkingInJava/innerclasses/BigEgg2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -951,16 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="292">
-            <caret line="84" column="35" selection-start-line="84" selection-start-column="35" selection-end-line="84" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/InputFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -973,8 +979,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Cleanup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
+        <state relative-caret-position="104">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="311">
+            <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/exceptions/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
         </state>
       </provider>
     </entry>
