@@ -1,6 +1,6 @@
 # Thinking_in_Java
 ### dete: 2019-01-11
-### page：413
+### page：415
 
 ## Chapter
 # 10. 内部类
