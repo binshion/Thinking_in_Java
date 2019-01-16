@@ -27,5 +27,10 @@ public class Encode {
 
         String f3 = new String(URLEncoder.encode(filename).getBytes("utf8"), "utf8");
         System.out.println(f3);
+
+        String f4 = URLEncoder.encode("科目余额表.xls");
+        String f5 = URLEncoder.encode("科目余额表.xls", "GB2312");
+        System.out.println(f4);
+        System.out.println(f5);
     }
 }
