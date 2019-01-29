@@ -9,5 +9,13 @@ public class Test {
     }
     public static void main(String[] args){
         Test t = new Test();
+        byte value = 0;
+        byte b = s(value);
+        System.out.println(b);
+
+    }
+
+    public static byte s(byte a) {
+        return ++a;
     }
 }
