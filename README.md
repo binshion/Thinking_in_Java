@@ -214,4 +214,5 @@
     * 17.12.1 WeakHahMap ******552
 * 17.13 Java 1.0/1.1 的容器 ****553
     * 17.13.1 Vector和Enumeration **553
+    * 17.13.2 Hashtable ********554
      
