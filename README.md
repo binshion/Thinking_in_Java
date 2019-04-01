@@ -230,7 +230,10 @@
 * 18.3 添加属性和有用的接口
     * 18.3.1 通过FilterInputStream从InputStream读取数据 *568
     * 18.3.2 通过FilterOutputStream向OutputStream写入 ***569
-* 18.4 Reader和Writer
+* 18.4 Reader和Writer **********570
+    * 18.4.1 数据的来源和去处 ***570
+    * 18.4.2 更改流的行为 *******571
+    * 18.4.3 未发生变化的类 *****572
 * 18.5 自我独立的类：RandomAccessFile
 * 18.6 I/O流的典型使用方式
 * 18.7 文件读写的实用工具
