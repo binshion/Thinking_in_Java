@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="0227">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+    <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="18.9 进程控制">
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkingInJava/util/OSExecute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Thinking_in_Java.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -12,38 +16,58 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/Thinking_in_Java$MakeDirectories.ic" NAME="MakeDirectories Coverage Results" MODIFIED="1553959246577" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thinkingInJava.io.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Thinking_in_Java$AtUnitExample1.ic" NAME="AtUnitExample1 Coverage Results" MODIFIED="1553791058381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>thinkingInJava.annotations.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Thinking_in_Java" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-                <folding />
+              <first_editor relative-caret-position="247">
+                <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Bits.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Bits.java">
+      <file leaf-file-name="OSExecuteException.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
+            <state relative-caret-position="133">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OSExecuteDemo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stacks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Stacks.java">
+      <file leaf-file-name="OSExecute.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecute.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="228">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -57,81 +81,70 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
+        <option value="Enum" />
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>add</find>
-      <find>add(</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="PUSH_TAGS">
-      <GitPushTagMode />
-    </option>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/thinkingInJava/util/Tuple.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/DynamicProxyMixin.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/Performs.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/DogsAndRobots.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/SimpleDogAndRobots.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/Fill.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/coffee/Coffee.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/coffee/Latte.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/coffee/Mocha.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/coffee/Cappuccino.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/coffee/Americano.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/Fill2.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/generics/Functional.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/arrays/ParameterizedArrayType.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/arrays/GeneratorTest.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/util/CountingGenerator.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/util/RandomGenerator.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/arrays/RandomGeneratorsTest.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/QueueBehavior.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/ToDoList.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/util/Deque.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/DequeTest.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/AssociativeArray.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/util/Print.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/CountingMapData.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/Unsupported.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/TypesForSets.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/SortedSetDemo.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/containers/Maps.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Groundhog.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Prediction.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/SortedMapDemo.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/LinkedHashMapDemo.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/containers/SpringDetector.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/MapEntry.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/SlowMap.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/SimpleHashMap.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/StringHashCode.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/containers/CountedString.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Test.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/TestParam.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Tester.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/ListPerformance.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/RandomBounds.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/SetPerformance.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/MapPerformance.java" />
-        <option value="$PROJECT_DIR$/Test.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Utilities.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/ListSortSearch.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/ReadOnly.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Synchronizetion.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/FailFast.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/containers/References.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Enumerations.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Stacks.java" />
-        <option value="$PROJECT_DIR$/thinkingInJava/containers/Bits.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/containers/CanonicalMapping.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/EnumClass.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/Spiciness.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/Burrito.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/OzWitch.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/SpaceShip.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/TrafficLight.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/OverrideConstantSpecific.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/PostOffice.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/VendingMachine.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/enumerated/VendingMachineInput" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/TextFile.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/Testable.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/atunit/Test.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/UseCase.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/PasswordUtils.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/UseCaseTracker.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/database/DBTable.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/database/Constraints.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/SimulatingNull.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/AtUnitExample1Test.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/annotations/AtUnitExample1.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/DirList2.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/DirList.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/DirList3.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/PPrint.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/Directory.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/DirectoryDeme.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/ProcessFiles.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/Tests.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/Test.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/MakeDirectories.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/FormattedMemoryInput.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/TestEOF.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/StoringAndRecoveringDataData.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/UsingRandomAccessFile.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/BinaryFile.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/OSExecute.java" />
+        <option value="$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" />
       </list>
     </option>
   </component>
@@ -153,10 +166,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2552" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -227,23 +241,11 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,155 +262,47 @@
               <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
               <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="References.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
-              <item name="thinkingInJava" type="462c0819:PsiDirectoryNode" />
-              <item name="containers" type="462c0819:PsiDirectoryNode" />
-              <item name="Stacks.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="thinkingInJava.containers" />
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="thinkingInJava.annotations" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/thinkingInJava/containers/References.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/thinkingInJava/containers/CanonicalMapping.java</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JavaProject\Thinking_in_Java\thinkingInJava\io" />
+      <recent name="E:\JavaProject\Thinking_in_Java\thinkingInJava\annotations" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -422,125 +316,69 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Bits">
+  <component name="RunManager" selected="Application.OSExecuteDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="WIDTH" value="0" />
-      <option name="HEIGHT" value="0" />
-      <module />
     </configuration>
-    <configuration name="Bits" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="FormattedMemoryInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.io.FormattedMemoryInput" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.containers.*" />
+          <option name="PATTERN" value="thinkingInJava.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.containers.Bits" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Thinking_in_Java" />
-      <envs />
     </configuration>
-    <configuration name="Enumerations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="OSExecuteDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.io.OSExecuteDemo" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.containers.*" />
+          <option name="PATTERN" value="thinkingInJava.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.containers.Enumerations" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Thinking_in_Java" />
-      <envs />
     </configuration>
-    <configuration name="FailFast" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="StoringAndRecoveringDataData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.io.StoringAndRecoveringDataData" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.containers.*" />
+          <option name="PATTERN" value="thinkingInJava.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.containers.FailFast" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Thinking_in_Java" />
-      <envs />
     </configuration>
-    <configuration name="Stacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="TestEOF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.io.TestEOF" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.containers.*" />
+          <option name="PATTERN" value="thinkingInJava.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.containers.Stacks" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Thinking_in_Java" />
-      <envs />
     </configuration>
-    <configuration name="Synchronizetion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+    <configuration name="UsingRandomAccessFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thinkingInJava.io.UsingRandomAccessFile" />
+      <module name="Thinking_in_Java" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thinkingInJava.containers.*" />
+          <option name="PATTERN" value="thinkingInJava.io.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="thinkingInJava.containers.Synchronizetion" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Thinking_in_Java" />
-      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -550,17 +388,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -573,37 +407,31 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Synchronizetion" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FailFast" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Enumerations" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Stacks" />
-      <item index="4" class="java.lang.String" itemvalue="Application.Bits" />
+    <list>
+      <item itemvalue="Application.FormattedMemoryInput" />
+      <item itemvalue="Application.TestEOF" />
+      <item itemvalue="Application.StoringAndRecoveringDataData" />
+      <item itemvalue="Application.UsingRandomAccessFile" />
+      <item itemvalue="Application.OSExecuteDemo" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Bits" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Stacks" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Enumerations" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FailFast" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Synchronizetion" />
+      <list>
+        <item itemvalue="Application.OSExecuteDemo" />
+        <item itemvalue="Application.UsingRandomAccessFile" />
+        <item itemvalue="Application.StoringAndRecoveringDataData" />
+        <item itemvalue="Application.TestEOF" />
+        <item itemvalue="Application.FormattedMemoryInput" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -624,427 +452,514 @@
       <workItem from="1546526124041" duration="3415000" />
       <workItem from="1546603913404" duration="9169000" />
       <workItem from="1546664515705" duration="4903000" />
-      <workItem from="1546767034486" duration="11866000" />
-      <workItem from="1546826157549" duration="629000" />
-      <workItem from="1546833612323" duration="176000" />
-      <workItem from="1546907576329" duration="609000" />
-      <workItem from="1547005804643" duration="1785000" />
-      <workItem from="1547119804508" duration="1974000" />
-      <workItem from="1547167292725" duration="4209000" />
-      <workItem from="1547549512224" duration="726000" />
-      <workItem from="1547625890343" duration="1198000" />
-      <workItem from="1547720975073" duration="911000" />
-      <workItem from="1547783732636" duration="1208000" />
-      <workItem from="1548030440553" duration="5867000" />
-      <workItem from="1548156284844" duration="1957000" />
-      <workItem from="1548204212910" duration="3092000" />
-      <workItem from="1548334659423" duration="99000" />
-      <workItem from="1548375601081" duration="5367000" />
-      <workItem from="1548638516505" duration="4473000" />
-      <workItem from="1548720889251" duration="11936000" />
-      <workItem from="1548807479992" duration="4257000" />
-      <workItem from="1548893105403" duration="615000" />
-      <workItem from="1549930080597" duration="3145000" />
-      <workItem from="1550016660602" duration="1672000" />
-      <workItem from="1550018429137" duration="2089000" />
-      <workItem from="1550104936993" duration="2854000" />
-      <workItem from="1550450447052" duration="1332000" />
-      <workItem from="1550708778387" duration="5782000" />
-      <workItem from="1550795863182" duration="2068000" />
-      <workItem from="1551142180965" duration="13985000" />
-      <workItem from="1551696727203" duration="20159000" />
-      <workItem from="1551873331856" duration="3031000" />
-      <workItem from="1552275895715" duration="613000" />
-      <workItem from="1552308259317" duration="9664000" />
+      <workItem from="1546767034486" duration="12091000" />
+      <workItem from="1546869514550" duration="3583000" />
+      <workItem from="1546954410833" duration="5654000" />
+      <workItem from="1547042659961" duration="1227000" />
+      <workItem from="1547127423056" duration="6003000" />
+      <workItem from="1547209142736" duration="5198000" />
+      <workItem from="1547301732015" duration="4355000" />
+      <workItem from="1547384183552" duration="7050000" />
+      <workItem from="1547479970534" duration="71000" />
+      <workItem from="1547731781681" duration="2673000" />
+      <workItem from="1547815771265" duration="236000" />
+      <workItem from="1547888448062" duration="8137000" />
+      <workItem from="1547995236865" duration="3681000" />
+      <workItem from="1548511195068" duration="106000" />
+      <workItem from="1548592928031" duration="6000000" />
+      <workItem from="1548861213746" duration="1115000" />
+      <workItem from="1549023317278" duration="1216000" />
+      <workItem from="1549074573741" duration="167000" />
+      <workItem from="1549115410228" duration="2266000" />
+      <workItem from="1549186821344" duration="9897000" />
+      <workItem from="1549249242013" duration="7419000" />
+      <workItem from="1549330889409" duration="610000" />
+      <workItem from="1549362674472" duration="3557000" />
+      <workItem from="1549423183125" duration="6501000" />
+      <workItem from="1549442763927" duration="3300000" />
+      <workItem from="1549500490154" duration="4214000" />
+      <workItem from="1549599569502" duration="5165000" />
+      <workItem from="1549683079944" duration="742000" />
+      <workItem from="1549708724473" duration="674000" />
+      <workItem from="1549800998959" duration="643000" />
+      <workItem from="1549901795177" duration="774000" />
+      <workItem from="1550062093742" duration="48000" />
+      <workItem from="1550154986269" duration="1198000" />
+      <workItem from="1550233639253" duration="549000" />
+      <workItem from="1550754173528" duration="4024000" />
+      <workItem from="1550920599654" duration="1208000" />
+      <workItem from="1551017942910" duration="139000" />
+      <workItem from="1551577339998" duration="2113000" />
+      <workItem from="1551793473201" duration="1635000" />
+      <workItem from="1552402324989" duration="2586000" />
+      <workItem from="1552478067795" duration="4195000" />
+      <workItem from="1552572442869" duration="613000" />
+      <workItem from="1553091879143" duration="3744000" />
+      <workItem from="1553176955580" duration="255000" />
+      <workItem from="1553438046212" duration="6332000" />
+      <workItem from="1553606215013" duration="5905000" />
+      <workItem from="1553787064990" duration="3382000" />
+      <workItem from="1553790517204" duration="1089000" />
+      <workItem from="1553909090851" duration="17726000" />
+      <workItem from="1554023614555" duration="4114000" />
+      <workItem from="1554127692889" duration="633000" />
+      <workItem from="1554217341055" duration="2119000" />
+      <workItem from="1554600850630" duration="5114000" />
+      <workItem from="1554818545790" duration="2119000" />
+      <workItem from="1554820689891" duration="402000" />
+      <workItem from="1554821117001" duration="41000" />
     </task>
-    <task id="LOCAL-00042" summary="446">
-      <created>1548072027813</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1548072027813</updated>
-    </task>
-    <task id="LOCAL-00043" summary="15.15.2 与接口混合">
-      <created>1548157305696</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1548157305696</updated>
-    </task>
-    <task id="LOCAL-00044" summary="447">
-      <created>1548158213507</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1548158213507</updated>
-    </task>
-    <task id="LOCAL-00045" summary="15.15.3 使用装饰器模式">
-      <created>1548216469822</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1548216469822</updated>
-    </task>
-    <task id="LOCAL-00046" summary="19-01-23">
-      <created>1548244748379</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1548244748379</updated>
-    </task>
-    <task id="LOCAL-00047" summary="190124">
-      <created>1548334711772</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1548334711772</updated>
-    </task>
-    <task id="LOCAL-00048" summary="15.15.4 与动态代理混合">
-      <created>1548377811619</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1548377811619</updated>
-    </task>
-    <task id="LOCAL-00049" summary="15.16 潜在类型机制">
-      <created>1548389765135</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1548389765135</updated>
-    </task>
-    <task id="LOCAL-00050" summary="0125">
-      <created>1548397247857</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1548397247858</updated>
-    </task>
-    <task id="LOCAL-00051" summary="15.17.3 当你并未碰巧拥有真确的接口时">
-      <created>1548649553733</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1548649553733</updated>
-    </task>
-    <task id="LOCAL-00052" summary="0128">
-      <created>1548676864148</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1548676864148</updated>
-    </task>
-    <task id="LOCAL-00053" summary="15.17.4 用适配器仿真潜在类型机制">
-      <created>1548724684804</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1548724684805</updated>
-    </task>
-    <task id="LOCAL-00054" summary="15.18 将函数对象用作策略">
-      <created>1548759088773</created>
-      <option name="number" value="00054" />
-      <option name="presentableId" value="LOCAL-00054" />
-      <option name="project" value="LOCAL" />
-      <updated>1548759088773</updated>
-    </task>
-    <task id="LOCAL-00055" summary="15.19 总结：转型真的如此之糟吗？">
-      <created>1548759522528</created>
-      <option name="number" value="00055" />
-      <option name="presentableId" value="LOCAL-00055" />
-      <option name="project" value="LOCAL" />
-      <updated>1548759522528</updated>
-    </task>
-    <task id="LOCAL-00056" summary="16.1 数组为什么特殊">
-      <created>1548760269837</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1548760269838</updated>
-    </task>
-    <task id="LOCAL-00057" summary="16.2 数组是第一级对象">
-      <created>1548760523719</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1548760523719</updated>
-    </task>
-    <task id="LOCAL-00058" summary="16.3 返回一个数组">
-      <created>1548760597852</created>
-      <option name="number" value="00058" />
-      <option name="presentableId" value="LOCAL-00058" />
-      <option name="project" value="LOCAL" />
-      <updated>1548760597852</updated>
-    </task>
-    <task id="LOCAL-00059" summary="16.4 多维数组">
-      <created>1548760664686</created>
-      <option name="number" value="00059" />
-      <option name="presentableId" value="LOCAL-00059" />
-      <option name="project" value="LOCAL" />
-      <updated>1548760664686</updated>
-    </task>
-    <task id="LOCAL-00060" summary="16.5 数组与泛型">
-      <created>1548761354589</created>
-      <option name="number" value="00060" />
-      <option name="presentableId" value="LOCAL-00060" />
-      <option name="project" value="LOCAL" />
-      <updated>1548761354590</updated>
-    </task>
-    <task id="LOCAL-00061" summary="0129">
-      <created>1548762795160</created>
-      <option name="number" value="00061" />
-      <option name="presentableId" value="LOCAL-00061" />
-      <option name="project" value="LOCAL" />
-      <updated>1548762795160</updated>
-    </task>
-    <task id="LOCAL-00062" summary="16.6.2 数据生成器">
-      <created>1548810525535</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1548810525536</updated>
-    </task>
-    <task id="LOCAL-00063" summary="17.7 队列">
-      <created>1549944249365</created>
-      <option name="number" value="00063" />
-      <option name="presentableId" value="LOCAL-00063" />
-      <option name="project" value="LOCAL" />
-      <updated>1549944249366</updated>
-    </task>
-    <task id="LOCAL-00064" summary="17.1.1 优先级队列">
-      <created>1550018073922</created>
-      <option name="number" value="00064" />
-      <option name="presentableId" value="LOCAL-00064" />
-      <option name="project" value="LOCAL" />
-      <updated>1550018073923</updated>
-    </task>
-    <task id="LOCAL-00065" summary="17.7.2 双向队列">
-      <created>1550019777855</created>
-      <option name="number" value="00065" />
-      <option name="presentableId" value="LOCAL-00065" />
-      <option name="project" value="LOCAL" />
-      <updated>1550019777856</updated>
-    </task>
-    <task id="LOCAL-00066" summary="17.8 理解Map">
-      <created>1550051065473</created>
-      <option name="number" value="00066" />
-      <option name="presentableId" value="LOCAL-00066" />
-      <option name="project" value="LOCAL" />
-      <updated>1550051065473</updated>
-    </task>
-    <task id="LOCAL-00067" summary="AssociativeArray">
-      <created>1550450566734</created>
-      <option name="number" value="00067" />
-      <option name="presentableId" value="LOCAL-00067" />
-      <option name="project" value="LOCAL" />
-      <updated>1550450566734</updated>
-    </task>
-    <task id="LOCAL-00068" summary="17.8.1 性能">
-      <created>1550728279319</created>
+    <task id="LOCAL-00068" summary="0202-">
+      <created>1549121865480</created>
       <option name="number" value="00068" />
       <option name="presentableId" value="LOCAL-00068" />
       <option name="project" value="LOCAL" />
-      <updated>1550728279320</updated>
+      <updated>1549121865481</updated>
     </task>
-    <task id="LOCAL-00069" summary="散列与散列码">
-      <created>1550827951141</created>
+    <task id="LOCAL-00069" summary="16.6.3 从Generator中创建数组">
+      <created>1549208130640</created>
       <option name="number" value="00069" />
       <option name="presentableId" value="LOCAL-00069" />
       <option name="project" value="LOCAL" />
-      <updated>1550827951142</updated>
+      <updated>1549208130641</updated>
     </task>
-    <task id="LOCAL-00070" summary="17.9.1 理解hashCode()">
-      <created>1551174365800</created>
+    <task id="LOCAL-00070" summary="16.7.2 数组的比较">
+      <created>1549209327798</created>
       <option name="number" value="00070" />
       <option name="presentableId" value="LOCAL-00070" />
       <option name="project" value="LOCAL" />
-      <updated>1551174365801</updated>
+      <updated>1549209327798</updated>
     </task>
-    <task id="LOCAL-00071" summary="0227">
-      <created>1551261053832</created>
+    <task id="LOCAL-00071" summary="16.7.3 数组元素的比较">
+      <created>1549210622774</created>
       <option name="number" value="00071" />
       <option name="presentableId" value="LOCAL-00071" />
       <option name="project" value="LOCAL" />
-      <updated>1551261053832</updated>
+      <updated>1549210622774</updated>
     </task>
-    <task id="LOCAL-00072" summary="17.9.2 为速度而散列">
-      <created>1551401279853</created>
+    <task id="LOCAL-00072" summary="16章完结">
+      <created>1549211245482</created>
       <option name="number" value="00072" />
       <option name="presentableId" value="LOCAL-00072" />
       <option name="project" value="LOCAL" />
-      <updated>1551401279853</updated>
+      <updated>1549211245482</updated>
     </task>
-    <task id="LOCAL-00073" summary="0301">
-      <created>1551433589867</created>
+    <task id="LOCAL-00073" summary="17章容器类">
+      <created>1549250144680</created>
       <option name="number" value="00073" />
       <option name="presentableId" value="LOCAL-00073" />
       <option name="project" value="LOCAL" />
-      <updated>1551433589867</updated>
+      <updated>1549250144680</updated>
     </task>
-    <task id="LOCAL-00074" summary="17.9 散列与散列码  Done">
-      <created>1551697791575</created>
+    <task id="LOCAL-00074" summary="17.2.1 一种Generator解决方案">
+      <created>1549265402571</created>
       <option name="number" value="00074" />
       <option name="presentableId" value="LOCAL-00074" />
       <option name="project" value="LOCAL" />
-      <updated>1551697791576</updated>
+      <updated>1549265402571</updated>
     </task>
-    <task id="LOCAL-00075" summary="17.10.1 性能测试框架">
-      <created>1551700341315</created>
+    <task id="LOCAL-00075" summary="17.2.2 Map生成器">
+      <created>1549365626059</created>
       <option name="number" value="00075" />
       <option name="presentableId" value="LOCAL-00075" />
       <option name="project" value="LOCAL" />
-      <updated>1551700341315</updated>
+      <updated>1549365626060</updated>
     </task>
-    <task id="LOCAL-00076" summary="17.10.2 对List的选择">
-      <created>1551784280554</created>
+    <task id="LOCAL-00076" summary="17.2 填充容器">
+      <created>1549444578206</created>
       <option name="number" value="00076" />
       <option name="presentableId" value="LOCAL-00076" />
       <option name="project" value="LOCAL" />
-      <updated>1551784280554</updated>
+      <updated>1549444578207</updated>
     </task>
-    <task id="LOCAL-00077" summary="17.10.3 微基准测试的危险">
-      <created>1551785020899</created>
+    <task id="LOCAL-00077" summary="17.3 Collection的功能方法">
+      <created>1549469592136</created>
       <option name="number" value="00077" />
       <option name="presentableId" value="LOCAL-00077" />
       <option name="project" value="LOCAL" />
-      <updated>1551785020899</updated>
+      <updated>1549469592136</updated>
     </task>
-    <task id="LOCAL-00078" summary="17.10.4 对Set的选择">
-      <created>1551786153912</created>
+    <task id="LOCAL-00078" summary="17.4 可选操作">
+      <created>1549501758617</created>
       <option name="number" value="00078" />
       <option name="presentableId" value="LOCAL-00078" />
       <option name="project" value="LOCAL" />
-      <updated>1551786153912</updated>
+      <updated>1549501758618</updated>
     </task>
-    <task id="LOCAL-00079" summary="17.10.5 对Map的选择">
-      <created>1551787141049</created>
+    <task id="LOCAL-00079" summary="17.5 List的功能方法">
+      <created>1549502684082</created>
       <option name="number" value="00079" />
       <option name="presentableId" value="LOCAL-00079" />
       <option name="project" value="LOCAL" />
-      <updated>1551787141049</updated>
+      <updated>1549502684082</updated>
     </task>
-    <task id="LOCAL-00080" summary="17.11.2 设定Collection或Map为不可修改">
-      <created>1551873277772</created>
+    <task id="LOCAL-00080" summary="17.6 Set和存储顺序">
+      <created>1549619171894</created>
       <option name="number" value="00080" />
       <option name="presentableId" value="LOCAL-00080" />
       <option name="project" value="LOCAL" />
-      <updated>1551873277772</updated>
+      <updated>1549619171896</updated>
     </task>
-    <task id="LOCAL-00081" summary="设定Collection或Map为不可修改">
-      <created>1552006590596</created>
+    <task id="LOCAL-00081" summary="0209">
+      <created>1549708794760</created>
       <option name="number" value="00081" />
       <option name="presentableId" value="LOCAL-00081" />
       <option name="project" value="LOCAL" />
-      <updated>1552006590596</updated>
+      <updated>1549708794761</updated>
     </task>
-    <task id="LOCAL-00082" summary="550 快速报错">
-      <created>1552038578936</created>
+    <task id="LOCAL-00082" summary="0210">
+      <created>1549801033013</created>
       <option name="number" value="00082" />
       <option name="presentableId" value="LOCAL-00082" />
       <option name="project" value="LOCAL" />
-      <updated>1552038578936</updated>
+      <updated>1549801033013</updated>
     </task>
-    <task id="LOCAL-00083" summary="快速失败">
-      <created>1552308633960</created>
+    <task id="LOCAL-00083" summary="0211">
+      <created>1549901827506</created>
       <option name="number" value="00083" />
       <option name="presentableId" value="LOCAL-00083" />
       <option name="project" value="LOCAL" />
-      <updated>1552308633961</updated>
+      <updated>1549901827507</updated>
     </task>
-    <task id="LOCAL-00084" summary="551 持有引用">
-      <created>1552308944002</created>
+    <task id="LOCAL-00084" summary="0212">
+      <created>1549902019328</created>
       <option name="number" value="00084" />
       <option name="presentableId" value="LOCAL-00084" />
       <option name="project" value="LOCAL" />
-      <updated>1552308944002</updated>
+      <updated>1549902019328</updated>
     </task>
-    <task id="LOCAL-00085" summary="持有引用 0312">
-      <created>1552384260419</created>
+    <task id="LOCAL-00085" summary="17.8.2 SortedMap">
+      <created>1550756033273</created>
       <option name="number" value="00085" />
       <option name="presentableId" value="LOCAL-00085" />
       <option name="project" value="LOCAL" />
-      <updated>1552384260419</updated>
+      <updated>1550756033274</updated>
     </task>
-    <task id="LOCAL-00086" summary="17.13.1 Vector和Enumeration">
-      <created>1552438597078</created>
+    <task id="LOCAL-00086" summary="17.8.3 LinkedHashMap">
+      <created>1550764418620</created>
       <option name="number" value="00086" />
       <option name="presentableId" value="LOCAL-00086" />
       <option name="project" value="LOCAL" />
-      <updated>1552438597078</updated>
+      <updated>1550764418620</updated>
     </task>
-    <task id="LOCAL-00087" summary="17.13.2 Hashtable">
-      <created>1552438706764</created>
+    <task id="LOCAL-00087" summary="17.9 散列与散列码 *********521">
+      <created>1550765034205</created>
       <option name="number" value="00087" />
       <option name="presentableId" value="LOCAL-00087" />
       <option name="project" value="LOCAL" />
-      <updated>1552438706764</updated>
+      <updated>1550765034205</updated>
     </task>
-    <task id="LOCAL-00088" summary="17.13.3 Stack">
-      <created>1552450818107</created>
+    <task id="LOCAL-00088" summary="0224">
+      <created>1551018066820</created>
       <option name="number" value="00088" />
       <option name="presentableId" value="LOCAL-00088" />
       <option name="project" value="LOCAL" />
-      <updated>1552450818107</updated>
+      <updated>1551018066821</updated>
     </task>
-    <task id="LOCAL-00089" summary="17.13.4 BitSet">
-      <created>1552452229338</created>
+    <task id="LOCAL-00089" summary="0303">
+      <created>1551627502266</created>
       <option name="number" value="00089" />
       <option name="presentableId" value="LOCAL-00089" />
       <option name="project" value="LOCAL" />
-      <updated>1552452229338</updated>
+      <updated>1551627502267</updated>
     </task>
-    <task id="LOCAL-00090" summary="17.14 总结          17章Done">
-      <created>1552452373625</created>
+    <task id="LOCAL-00090" summary="17.11">
+      <created>1551796614027</created>
       <option name="number" value="00090" />
       <option name="presentableId" value="LOCAL-00090" />
       <option name="project" value="LOCAL" />
-      <updated>1552452373625</updated>
+      <updated>1551796614028</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="17.12.1 WeakHahMap">
+      <created>1552404880922</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1552404880924</updated>
+    </task>
+    <task id="LOCAL-00092" summary="19.1 基本enum特性">
+      <created>1552479523928</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1552479523929</updated>
+    </task>
+    <task id="LOCAL-00093" summary="19.2 向enum中添加新方法">
+      <created>1552481138434</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1552481138434</updated>
+    </task>
+    <task id="LOCAL-00094" summary="19.3 switch语句中的enum">
+      <created>1552482622643</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1552482622643</updated>
+    </task>
+    <task id="LOCAL-00095" summary="19.10.1 使用enum的职责链">
+      <created>1553095331901</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1553095331902</updated>
+    </task>
+    <task id="LOCAL-00096" summary="0321">
+      <created>1553177046693</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1553177046694</updated>
+    </task>
+    <task id="LOCAL-00097" summary="19.10.2 使用enum的状态机">
+      <created>1553443946908</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1553443946908</updated>
+    </task>
+    <task id="LOCAL-00098" summary="20.1 基本语法">
+      <created>1553608756340</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1553608756341</updated>
+    </task>
+    <task id="LOCAL-00099" summary="20.2.2 默认值限制">
+      <created>1553609850000</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1553609850000</updated>
+    </task>
+    <task id="LOCAL-00100" summary="20.2.2 默认值限制">
+      <created>1553609881738</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1553609881738</updated>
+    </task>
+    <task id="LOCAL-00101" summary="17.6 Set和存储顺序">
+      <created>1553614898437</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1553614898437</updated>
+    </task>
+    <task id="LOCAL-00102" summary="20.4 将观察者模式用于apt">
+      <created>1553787646100</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1553787646100</updated>
+    </task>
+    <task id="LOCAL-00103" summary="3.29">
+      <created>1553791586112</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1553791586113</updated>
+    </task>
+    <task id="LOCAL-00104" summary="18.1.1 目录列表器">
+      <created>1553913393527</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1553913393528</updated>
+    </task>
+    <task id="LOCAL-00105" summary="18.1.2 目录实用工具">
+      <created>1553921184955</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1553921184955</updated>
+    </task>
+    <task id="LOCAL-00106" summary="18.1.3 目录的检查及创建">
+      <created>1553961201584</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1553961201584</updated>
+    </task>
+    <task id="LOCAL-00107" summary="18.2 输入和输出">
+      <created>1554036555503</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1554036555503</updated>
+    </task>
+    <task id="LOCAL-00108" summary="18.3 添加属性和有用的接口">
+      <created>1554038212993</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1554038212993</updated>
+    </task>
+    <task id="LOCAL-00109" summary="03.31">
+      <created>1554038290604</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1554038290604</updated>
+    </task>
+    <task id="LOCAL-00110" summary="18.6.3 格式化的内存输入">
+      <created>1554219322121</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1554219322121</updated>
+    </task>
+    <task id="LOCAL-00111" summary="18.6.5 存储和恢复数据">
+      <created>1554602122912</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1554602122913</updated>
+    </task>
+    <task id="LOCAL-00112" summary="18.6.6 读取随机访问文件">
+      <created>1554603452462</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1554603452462</updated>
+    </task>
+    <task id="LOCAL-00113" summary="18.6 I/O流的典型使用方式">
+      <created>1554603507899</created>
+      <option name="number" value="00113" />
+      <option name="presentableId" value="LOCAL-00113" />
+      <option name="project" value="LOCAL" />
+      <updated>1554603507899</updated>
+    </task>
+    <task id="LOCAL-00114" summary="18.7.1 读取二进制文件">
+      <created>1554606550573</created>
+      <option name="number" value="00114" />
+      <option name="presentableId" value="LOCAL-00114" />
+      <option name="project" value="LOCAL" />
+      <updated>1554606550573</updated>
+    </task>
+    <task id="LOCAL-00115" summary="0407">
+      <created>1554640232426</created>
+      <option name="number" value="00115" />
+      <option name="presentableId" value="LOCAL-00115" />
+      <option name="project" value="LOCAL" />
+      <updated>1554640232426</updated>
+    </task>
+    <task id="LOCAL-00116" summary="18.9 进程控制">
+      <created>1554820475772</created>
+      <option name="number" value="00116" />
+      <option name="presentableId" value="LOCAL-00116" />
+      <option name="project" value="LOCAL" />
+      <updated>1554820475773</updated>
+    </task>
+    <option name="localTasksCounter" value="117" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AtUnitExample1Test - 2019.03.29 at 00h 33m 13s.xml">
+      <configuration name="AtUnitExample1Test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1 - 2019.03.29 at 00h 37m 26s.xml">
+      <configuration name="AtUnitExample1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1 - 2019.03.29 at 00h 37m 39s.xml">
+      <configuration name="AtUnitExample1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1 - 2019.03.29 at 00h 42m 57s.xml">
+      <configuration name="AtUnitExample1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1 - 2019.03.29 at 00h 44m 38s.xml">
+      <configuration name="AtUnitExample1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1_methodOne - 2019.03.29 at 00h 44m 59s.xml">
+      <configuration name="AtUnitExample1.methodOne" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AtUnitExample1_methodOne - 2019.03.29 at 00h 45m 31s.xml">
+      <configuration name="AtUnitExample1.methodOne" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192362000" />
+    <option name="totallyTimeSpent" value="248622000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39545456" sideWeight="0.46555555" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886365" sideWeight="0.38777778" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29886365" sideWeight="0.6122222" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5034091" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26555556" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28863636" sideWeight="0.80222225" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32902297" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614943" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.3281075" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5815565" weight="0.18365061" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49573562" weight="0.32922733" />
+      <window_info anchor="right" id="Terminal" order="12" sideWeight="0.66364604" weight="0.4291498" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.496063" visible="true" weight="0.14978679" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info id="Structure" order="1" sideWeight="0.503937" side_tool="true" weight="0.18380567" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9056503" weight="0.48712206" />
+      <window_info id="Favorites" order="7" sideWeight="0.503937" side_tool="true" weight="0.18380567" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32586786" />
+      <window_info id="Nl-Palette" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48667377" weight="0.39417693" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="right" id="Properties" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32902297" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32902297" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Spring" order="11" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.5815565" weight="0.18365061" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="right" id="Properties" order="7" />
+      <window_info anchor="right" id="Terminal" order="12" sideWeight="0.66364604" weight="0.4291498" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" visible="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.48667377" weight="0.39417693" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32905984" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49573562" visible="true" weight="0.32922733" />
+      <window_info id="Nl-Palette" order="6" />
+      <window_info anchor="right" id="Maven Projects" order="9" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4978678" weight="0.32586786" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.496063" weight="0.14658849" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Structure" order="1" sideWeight="0.503937" side_tool="true" weight="0.18380567" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="10" side_tool="true" weight="0.32995737" />
+      <window_info id="Favorites" order="7" sideWeight="0.503937" side_tool="true" weight="0.18380567" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.9056503" weight="0.48712206" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1053,32 +968,32 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="17.8 理解Map" />
-    <MESSAGE value="AssociativeArray" />
-    <MESSAGE value="17.8.1 性能" />
-    <MESSAGE value="散列与散列码" />
-    <MESSAGE value="17.9.1 理解hashCode()" />
-    <MESSAGE value="0227" />
-    <MESSAGE value="17.9.2 为速度而散列" />
-    <MESSAGE value="0301" />
-    <MESSAGE value="17.9 散列与散列码  Done" />
-    <MESSAGE value="17.10.1 性能测试框架" />
-    <MESSAGE value="17.10.2 对List的选择" />
-    <MESSAGE value="17.10.3 微基准测试的危险" />
-    <MESSAGE value="17.10.4 对Set的选择" />
-    <MESSAGE value="17.10.5 对Map的选择" />
-    <MESSAGE value="17.11.2 设定Collection或Map为不可修改" />
-    <MESSAGE value="设定Collection或Map为不可修改" />
-    <MESSAGE value="550 快速报错" />
-    <MESSAGE value="快速失败" />
-    <MESSAGE value="551 持有引用" />
-    <MESSAGE value="持有引用 0312" />
-    <MESSAGE value="17.13.1 Vector和Enumeration" />
-    <MESSAGE value="17.13.2 Hashtable" />
-    <MESSAGE value="17.13.3 Stack" />
-    <MESSAGE value="17.13.4 BitSet" />
-    <MESSAGE value="17.14 总结          17章Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="17.14 总结          17章Done" />
+    <MESSAGE value="17.12.1 WeakHahMap" />
+    <MESSAGE value="19.1 基本enum特性" />
+    <MESSAGE value="19.2 向enum中添加新方法" />
+    <MESSAGE value="19.3 switch语句中的enum" />
+    <MESSAGE value="19.10.1 使用enum的职责链" />
+    <MESSAGE value="0321" />
+    <MESSAGE value="19.10.2 使用enum的状态机" />
+    <MESSAGE value="20.1 基本语法" />
+    <MESSAGE value="20.2.2 默认值限制" />
+    <MESSAGE value="17.6 Set和存储顺序" />
+    <MESSAGE value="20.4 将观察者模式用于apt" />
+    <MESSAGE value="3.29" />
+    <MESSAGE value="18.1.1 目录列表器" />
+    <MESSAGE value="18.1.2 目录实用工具" />
+    <MESSAGE value="18.1.3 目录的检查及创建" />
+    <MESSAGE value="18.2 输入和输出" />
+    <MESSAGE value="18.3 添加属性和有用的接口" />
+    <MESSAGE value="03.31" />
+    <MESSAGE value="18.6.3 格式化的内存输入" />
+    <MESSAGE value="18.6.5 存储和恢复数据" />
+    <MESSAGE value="18.6.6 读取随机访问文件" />
+    <MESSAGE value="18.6 I/O流的典型使用方式" />
+    <MESSAGE value="18.7.1 读取二进制文件" />
+    <MESSAGE value="0407" />
+    <MESSAGE value="18.9 进程控制" />
+    <option name="LAST_COMMIT_MESSAGE" value="18.9 进程控制" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1095,388 +1010,333 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/thinkingInJava/util/Pair.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/thinkingInJava/containers/SortedMapDemo.java</url>
+          <line>19</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="17" />
+      <option name="time" value="16" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/generics/Fill2.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/CarWash.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="65" column="0" lean-forward="true" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/generics/Functional.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/OverrideConstantSpecific.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1044">
-          <caret line="45" column="34" lean-forward="true" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        <state relative-caret-position="285">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/CountingGenerator.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/PostOffice.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2639">
-          <caret line="101" column="5" lean-forward="false" selection-start-line="13" selection-start-column="4" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="19">
+          <caret line="81" column="10" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/RandomGenerator.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/javax/swing/plaf/nimbus/State.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1856">
-          <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+        <state relative-caret-position="191">
+          <caret line="72" column="22" selection-start-line="72" selection-start-column="22" selection-end-line="72" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/arrays/RandomGeneratorsTest.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/Input.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="8" column="1" lean-forward="false" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/arrays/GeneratorTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Enum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="229" column="40" selection-start-line="229" selection-start-column="40" selection-end-line="229" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/VendingMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="551">
-          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/Generator.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/enumerated/VendingMachineInput">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        <state relative-caret-position="114">
+          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/arrays/ParameterizedArrayType.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/Testable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="152">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/Queue.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/PasswordUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-985">
-          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        <state relative-caret-position="209">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/UseCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="202" column="11" lean-forward="false" selection-start-line="202" selection-start-column="11" selection-end-line="202" selection-end-column="11" />
+        <state relative-caret-position="152">
+          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/QueueBehavior.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/database/DBTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+        <state relative-caret-position="76">
+          <caret line="7" column="91" selection-start-line="7" selection-start-column="91" selection-end-line="7" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/PriorityQueue.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/元注解.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/database/Constraints.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16182">
-          <caret line="558" column="36" lean-forward="false" selection-start-line="558" selection-start-column="32" selection-end-line="558" selection-end-column="36" />
+        <state relative-caret-position="171">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/ToDoList.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/SimulatingNull.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="48" column="43" lean-forward="false" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/Deque.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/atunit/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/DequeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="812">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+        <state relative-caret-position="228">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/AssociativeArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1138">
-          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+        <state relative-caret-position="380">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/Print.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/generics/DogsAndRobots.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="209">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/CountingMapData.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/UseCaseTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="11" lean-forward="false" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="38">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/lang/String.java">
+    <entry file="file://$PROJECT_DIR$/test/thinkingInJava/annotations/AtUnitExample1Test.class" />
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/AtUnitExample1Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="110" column="0" lean-forward="false" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+        <state relative-caret-position="247">
+          <caret line="13" column="9" lean-forward="true" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/TreeMap.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/annotations/AtUnitExample1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="351" column="0" lean-forward="false" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="0" />
+        <state relative-caret-position="190">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Maps.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="362">
+          <caret line="1183" column="43" selection-start-line="1183" selection-start-column="43" selection-end-line="1183" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Groundhog.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/DirList2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        <state relative-caret-position="403">
+          <caret line="31" column="43" lean-forward="true" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="43" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Prediction.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/DirList3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        <state relative-caret-position="437">
+          <caret line="29" column="66" lean-forward="true" selection-start-line="29" selection-start-column="66" selection-end-line="29" selection-end-column="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/SpringDetector.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/PPrint.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/AbstractMap.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/DirList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="174" column="13" lean-forward="false" selection-start-line="174" selection-start-column="13" selection-end-line="174" selection-end-column="13" />
+        <state relative-caret-position="498">
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="38" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/Countries.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/Directory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="80" column="0" lean-forward="false" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="308">
+          <caret line="78" column="87" selection-start-line="78" selection-start-column="87" selection-end-line="78" selection-end-column="87" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/MapEntry.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/DirectoryDeme.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
+        <state relative-caret-position="475">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/SlowMap.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/ProcessFiles.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1018">
-          <caret line="49" column="44" lean-forward="false" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        <state relative-caret-position="308">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="323" column="27" lean-forward="false" selection-start-line="323" selection-start-column="27" selection-end-line="323" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/java/jdk/jdk1.8/src.zip!/java/util/ListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="171" column="9" lean-forward="false" selection-start-line="171" selection-start-column="9" selection-end-line="171" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/SimpleHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1363">
-          <caret line="49" column="20" lean-forward="false" selection-start-line="49" selection-start-column="20" selection-end-line="49" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/StringHashCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="47" lean-forward="false" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/CountedString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="30" column="17" lean-forward="true" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Tester.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1645">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/TestParam.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/ListPerformance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2509">
-          <caret line="138" column="0" lean-forward="true" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/RandomBounds.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/MapPerformance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1769">
-          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/Tests.java" />
     <entry file="file://$PROJECT_DIR$/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/SetPerformance.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/Test.java" />
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/MakeDirectories.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1392">
-          <caret line="48" column="11" lean-forward="true" selection-start-line="48" selection-start-column="11" selection-end-line="48" selection-end-column="11" />
+        <state relative-caret-position="1121">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Utilities.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/BufferedInputFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1334">
-          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="323">
+          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/ListSortSearch.java">
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/TestEOF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="20" lean-forward="false" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="133">
+          <caret line="7" column="58" selection-start-line="7" selection-start-column="58" selection-end-line="7" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/FilterOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2470">
+          <caret line="155" column="16" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/FormattedMemoryInput.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="152" selection-start-line="10" selection-start-column="102" selection-end-line="10" selection-end-column="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/StoringAndRecoveringDataData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="144" selection-start-line="13" selection-start-column="94" selection-end-line="13" selection-end-column="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10488">
+          <caret line="552" column="16" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/UsingRandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="25" column="39" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/TextFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1558">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/BinaryFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/RuntimeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getOverTimeSalary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="35" lean-forward="true" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HelloWorld.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NumChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
           <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/ReadOnly.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Synchronizetion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/FailFast.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="9" lean-forward="true" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/References.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="44" column="9" lean-forward="true" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1726#1727#0" expanded="false" />
-            <element signature="e#1752#1753#0" expanded="false" />
-            <element signature="e#1798#1799#0" expanded="false" />
-            <element signature="e#1826#1827#0" expanded="false" />
-            <element signature="e#1859#1860#0" expanded="false" />
-            <element signature="e#1916#1917#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Enumerations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="18" column="61" lean-forward="false" selection-start-line="18" selection-start-column="61" selection-end-line="18" selection-end-column="61" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Stacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="43" column="0" lean-forward="true" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkingInJava/containers/Bits.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="71" column="1" lean-forward="true" selection-start-line="71" selection-start-column="1" selection-end-line="71" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1484,11 +1344,27 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            <folding />
+          <first_editor relative-caret-position="247">
+            <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecute.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
         </state>
       </provider>
     </entry>
