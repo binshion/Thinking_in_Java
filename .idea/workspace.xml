@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="18.9 进程控制">
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkingInJava/util/OSExecute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Thinking_in_Java.iml" beforeDir="false" />
+    <list default="true" id="545d6a10-601e-4eaa-b25b-85dfab158175" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" afterDir="false" />
@@ -29,23 +26,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
+              <first_editor relative-caret-position="475">
+                <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OSExecuteException.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OSExecuteException.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            <state relative-caret-position="76">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,8 +144,8 @@
         <option value="$PROJECT_DIR$/thinkingInJava/util/BinaryFile.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/util/OSExecute.java" />
         <option value="$PROJECT_DIR$/thinkingInJava/io/OSExecuteDemo.java" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -252,6 +253,11 @@
             <path>
               <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
               <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Thinking_in_Java" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Thinking_in_Java" type="b2602c69:ProjectViewProjectNode" />
@@ -507,14 +513,7 @@
       <workItem from="1554600850630" duration="5114000" />
       <workItem from="1554818545790" duration="2119000" />
       <workItem from="1554820689891" duration="402000" />
-      <workItem from="1554821117001" duration="41000" />
-    </task>
-    <task id="LOCAL-00068" summary="0202-">
-      <created>1549121865480</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1549121865481</updated>
+      <workItem from="1554821117001" duration="664000" />
     </task>
     <task id="LOCAL-00069" summary="16.6.3 从Generator中创建数组">
       <created>1549208130640</created>
@@ -852,7 +851,14 @@
       <option name="project" value="LOCAL" />
       <updated>1554820475773</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="18.9 进程控制">
+      <created>1554821215434</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1554821215435</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -879,7 +885,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="248622000" />
+    <option name="totallyTimeSpent" value="249245000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2552" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1341,16 +1347,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="12" selection-end-line="252" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecute.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1363,8 +1359,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkingInJava/util/OSExecuteException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        <state relative-caret-position="76">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="475">
+            <caret line="252" column="12" lean-forward="true" selection-start-line="252" selection-start-column="8" selection-end-line="252" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
