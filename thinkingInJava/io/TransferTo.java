@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.nio.channels.FileChannel;
 
 /**复制测试命令
- * java thinkingInJava.io.TransferTo "E:\JavaProject\Thinking_in_Java\thinkingInJava\io\文件改名测试.png" "E:\JavaProject\Thinking_in_Java\thinkingInJava\io\改名测试2.png"
+ * java thinkingInJava.io.TransferTo "f:\JavaProject\Thinking_in_Java\thinkingInJava\io\文件改名测试.png" "f:\JavaProject\Thinking_in_Java\thinkingInJava\io\改名测试2.png"
  */
 public class TransferTo {
     public static void main(String[] args) throws IOException {
