@@ -1,7 +1,6 @@
 package thinkingInJava.io;
 
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 import java.util.Random;
 
 import static thinkingInJava.util.Print.*;
@@ -52,9 +51,36 @@ public class Worm implements Serializable {
         }
         return result.toString();
     }
-    public static void main(String[] args){
+    public static void main(String[] args) throws ClassNotFoundException,
+            IOException {
         Worm w = new Worm(6, 'a');
         print("w = " + w);
-        ObjectOutputStream
+        ObjectOutputStream out = new ObjectOutputStream(
+                new FileOutputStream("F:/JavaProject/Thinking_in_Java/thinkingInJava/io/worm.out")
+        );
+        out.writeObject("Worm storage\n");
+        out.writeObject(w);
+        out.close();
+
+        ObjectInputStream in = new ObjectInputStream(
+                new FileInputStream("F:/JavaProject/Thinking_in_Java/thinkingInJava/io/worm.out")
+        );
+
+        String s = (String)in.readObject();
+        Worm w2 = (Worm)in.readObject();
+
+        print(s + "w2 = " + w2);
+        ByteArrayOutputStream bout = new ByteArrayOutputStream();
+        ObjectOutputStream out2 = new ObjectOutputStream(bout);
+        out2.writeObject("Worm storage\n");
+        out2.writeObject(w);
+        out2.flush();
+
+        ObjectInputStream in2 = new ObjectInputStream(
+                new ByteArrayInputStream(bout.toByteArray())
+        );
+        s = (String) in2.readObject();
+        Worm w3 = (Worm)in2.readObject();
+        print(s + "w3 = " + w3);
     }
 }
