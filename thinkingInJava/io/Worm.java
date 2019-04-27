@@ -16,6 +16,12 @@ class Data implements Serializable {
     }
 }
 
+/**
+ * 要序列化一个对象，首先要创建某些OutputStream对象，然后将其封装在一个ObjectOutputStream对象内。
+ *      这时，只需调用writeObject()即可将对象序列化，并将其发送给OutputStream(对象化序列是基于字节的，因要使用InputStream和
+ *      OutputStream继承层次结构)。
+ *      要反向进行该进程，需要将一个InputStream封装在ObjectInputStream内，然后调用readObject()。这样我们获得的是一个引用。
+ */
 public class Worm implements Serializable {
     private static Random rand = new Random(47);
     private Data[] d = {new Data(rand.nextInt(10)),
