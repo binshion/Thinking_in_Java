@@ -17,7 +17,7 @@ public class LiftOff implements Runnable {
     @Override
     public void run() {
         while (countDown-- > 0) {
-            System.out.println(status());
+            System.out.print(status());
 
             //对线程调度器的一种建议，出让执行时间
             Thread.yield();
