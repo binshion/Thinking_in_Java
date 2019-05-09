@@ -49,7 +49,7 @@ class WaxOn implements Runnable {
         try {
             while (!Thread.interrupted()) {
                 printnb("Wax on! ");
-                TimeUnit.MILLISECONDS.sleep(1000);  //模拟打蜡0.2s
+                TimeUnit.MILLISECONDS.sleep(1000);  //模拟打蜡1s
                 car.waxed();  //打蜡完成
                 car.waitForBuffing();  //挂起抛光任务，直到WaxOff调用buffed
             }
