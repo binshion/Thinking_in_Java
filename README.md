@@ -352,7 +352,7 @@
 * 21.6 死锁 ************************751
 * 21.7 新类库中的构件 ***************755
     * 21.7.1 CountDownLatch ********755
-    * 21.7.2 CyclicBarrier
+    * 21.7.2 CyclicBarrier *********757
     * 21.7.3 DelayQueue
     * 21.7.4 PriorityBlockingQueue
     * 21.7.5 使用ScheduleExecutor的温室控制器
