@@ -1,7 +1,5 @@
 package thinkingInJava.concurrency;
 
-import sun.security.krb5.internal.PAData;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
@@ -10,7 +8,7 @@ import java.util.concurrent.*;
 import static thinkingInJava.util.Print.*;
 
 class Horse implements Runnable {
-    private static int counter = 0;
+    private static int counter = 1;
     private final int id = counter++;
     private int strides = 0;
     private static Random rand = new Random(47);
@@ -64,6 +62,7 @@ public class HorseRace {
     private CyclicBarrier barrier;
 
     public HorseRace(int nHorse, final int pause) {
+        //向CyclicBarrier提供一个“栅栏动作”，它是一个Runnable，当计数值到达0时自动执行。
         barrier = new CyclicBarrier(nHorse, new Runnable() {
             @Override
             public void run() {
@@ -77,7 +76,7 @@ public class HorseRace {
                 }
                 for (Horse horse : horses) {
                     if(horse.getStrides() >= FINISH_LINE) {
-                        print(horse + " won!");
+                        print(horse + "won!");
                         exec.shutdownNow();
                         return;
                     }
@@ -101,8 +100,16 @@ public class HorseRace {
     public static void main(String[] args) {
         int nHourse = 7;
         int pause = 200;
-        if(args.length > 0) {
-
+        if(args.length > 0) {  //可选参数
+            int n = new Integer(args[0]);
+            nHourse = n > 0 ? n : nHourse;
         }
+
+        if(args.length > 1) {  //可选参数
+            int p = new Integer(args[1]);
+            pause = p > -1 ? p : pause;
+        }
+
+        new HorseRace(nHourse, pause);
     }
 }
