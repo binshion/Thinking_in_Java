@@ -5,7 +5,15 @@ public class Print {
         System.out.println(obj);
     }
 
+    public static void print() {
+        System.out.println();
+    }
+
     public static void printnb(Object obj) {
         System.out.print(obj);
+    }
+
+    public static void printnb() {
+        System.out.print("");
     }
 }
