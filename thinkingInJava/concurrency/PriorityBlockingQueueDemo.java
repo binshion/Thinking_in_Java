@@ -123,6 +123,11 @@ class PrioritizedTaskConsumer implements Runnable {
     }
 }
 
+/**
+ * PrioritizedTaskProducer 和 PrioritizedTaskConsumer通过PriorityBlockingQueue 彼此连接。
+ * 因为这种队列的阻塞特性提供了所有必需的同步，这里不需要任何显式的同步，即不必考虑当你从这种队列中读取时，其中是否有元素，
+ * 如果没有元素将直接阻塞读取者。
+ */
 public class PriorityBlockingQueueDemo {
     public static void main(String[] args) throws Exception {
         Random rand = new Random(47);
