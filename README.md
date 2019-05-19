@@ -356,8 +356,8 @@
     * 21.7.3 DelayQueue ************759
     * 21.7.4 PriorityBlockingQueue *761
     * 21.7.5 使用ScheduleExecutor的温室控制器 *763
-    * 21.7.6 Semaphore
-    * 21.7.7 Exchanger
+    * 21.7.6 Semaphore *************766
+    * 21.7.7 Exchanger *************768
 * 21.8 仿真
     * 21.8.1 银行出纳员仿真
     * 21.8.2 饭店仿真
