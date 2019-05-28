@@ -6,7 +6,7 @@ import java.util.concurrent.locks.ReentrantLock;
 public class SimpleMicroBenchmark {
     static long test(Incrementable incr) {
         long start = System.nanoTime();
-        for (long i = 0; i < 10000000000L; i++) {
+        for (long i = 0; i < 100000000L; i++) {
             incr.increment();
         }
         return System.nanoTime() - start;
