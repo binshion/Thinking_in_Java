@@ -16,10 +16,17 @@ public abstract class Tester<C> {
     static int testCycles = 1000;
     static int containerSize = 1000;
 
+    /**
+     * @return 将被测试的初始化后的容器，它被存储在testContainer域中
+     */
     abstract C containerInitializer();
+
+    /**
+     * 启动读取者和写入者任务
+     */
     abstract void startReadersAndWriters();
 
-    C testContainer;
+    C testContainer;  //被测试的初始化后的容器存储在此
     String testId;
     int nReaders;
     int nWriters;
