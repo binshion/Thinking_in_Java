@@ -96,7 +96,9 @@ public abstract class Tester<C> {
         if(args.length > 2) {
             containerSize = new Integer(args[2]);
         }
-
+        testReps = 1;
+        testCycles = 10;
+        containerSize = 10;
         System.out.printf("%-27s %14s %14s\n", "Type", "Read time", "Write time");
     }
 }
