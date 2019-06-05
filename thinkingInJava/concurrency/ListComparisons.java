@@ -21,7 +21,7 @@ public class ListComparisons {
         new CopyOnWriteArrayListTest(9, 1);
         new CopyOnWriteArrayListTest(5, 5);
 
-        Tester.exec.shutdownNow();
+        Tester.exec.shutdown();
     }
 }
 
