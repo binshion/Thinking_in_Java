@@ -18,3 +18,4 @@ public class BorderLayout1 extends JFrame {
         run(new BorderLayout1(), 300, 200);
     }
 }
+
