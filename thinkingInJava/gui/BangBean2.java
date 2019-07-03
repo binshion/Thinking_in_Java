@@ -1,8 +1,10 @@
 package thinkingInJava.gui;
 
+import thinkingInJava.util.SwingConsole;
+
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionListener;
+import java.awt.event.*;
 import java.io.Serializable;
 import java.util.ArrayList;
 
@@ -18,7 +20,7 @@ public class BangBean2 extends JPanel implements Serializable {
 
     public BangBean2() {
         addMouseListener(new ML());
-        addMouseMotionListener(new MML());
+        addMouseMotionListener(new MM());
     }
 
     public synchronized int getcSize() {
@@ -60,5 +62,78 @@ public class BangBean2 extends JPanel implements Serializable {
         g.drawOval(xm - cSize / 2, ym - cSize / 2, cSize, cSize);
     }
 
+    //This is a multicast listener, which is more typically used than
+    //the unicast approach taken in BangBean.java
+    public synchronized void addActionListener(ActionListener l) {
+        actionListeners.add(l);
+    }
 
+    public synchronized void removeActionListener(ActionListener l) {
+        actionListeners.remove(l);
+    }
+
+    //Notice this isn't synchronized
+    public void notifyListeners() {
+        ActionEvent a = new ActionEvent(BangBean2.this, ActionEvent.ACTION_PERFORMED, null);
+        ArrayList<ActionListener> lv = null;
+
+        //Make a shallow copy of the list in case someone adds a listener while
+        //we're calling listeners
+        synchronized (this) {
+            lv = new ArrayList<ActionListener>(actionListeners);
+        }
+
+        //Call all the listener methods
+        for (ActionListener al : lv) {
+            al.actionPerformed(a);
+        }
+    }
+
+    class ML extends MouseAdapter {
+        @Override
+        public void mousePressed(MouseEvent e) {
+            Graphics g = getGraphics();
+            g.setColor(color);
+            g.setFont(new Font("TimesRoman", Font.BOLD, fontSize));
+            int width = g.getFontMetrics().stringWidth(text);
+            g.drawString(text, (getSize().width - width) / 2, getSize().height / 2);
+            g.dispose();
+            notifyListeners();
+        }
+    }
+
+    class MM extends MouseMotionAdapter {
+        @Override
+        public void mouseMoved(MouseEvent e) {
+            xm = e.getX();
+            ym = e.getY();
+            repaint();
+        }
+    }
+
+    public static void main(String[] args) {
+        BangBean2 bb2 = new BangBean2();
+        bb2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("ActionEvent" + e);
+            }
+        });
+        bb2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("BangBean2 action");
+            }
+        });
+        bb2.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.out.println("More action");
+            }
+        });
+
+        JFrame frame = new JFrame();
+        frame.add(bb2);
+        SwingConsole.run(frame, 300, 300);
+    }
 }
